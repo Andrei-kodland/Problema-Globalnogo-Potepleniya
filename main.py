@@ -5,7 +5,7 @@ from model import get_class  # Ensure your 'get_class' function works fine
 from bot_logic import gen_pass, gen_emodji, flip_coin  # Import functions from bot_logic
 
 # Replace 'TOKEN' with your bot's token
-bot = telebot.TeleBot("7989296233:AAHbLW8J_gNzrDxb4QDcFh59GpcJRsEeyo8")
+bot = telebot.TeleBot()
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
